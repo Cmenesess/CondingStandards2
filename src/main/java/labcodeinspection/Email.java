@@ -2,8 +2,8 @@ package labcodeinspection;
 
 public class Email {
 
-	private String m_firstName; 
-	private String m_lastName;
+	private final String m_firstName; 
+	private final String m_lastName;
 	private String password;
 	private String department;
 	private int defaultpasswordLength = 8;

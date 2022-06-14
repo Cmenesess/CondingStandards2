@@ -2,7 +2,11 @@ package labcodeinspection;
 
 import java.util.Scanner;
 
-public class EmailApp {
+public final class EmailApp {
+	
+	private EmailApp() {
+		throw new UnsupportedOperationException();
+	}
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

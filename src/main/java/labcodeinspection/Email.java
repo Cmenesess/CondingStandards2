@@ -30,6 +30,8 @@ public class Email {
 		case 3:
 			this.department = "acct";
 			break;
+		default:
+			break;
 		}
 	}
 

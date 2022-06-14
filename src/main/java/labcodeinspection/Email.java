@@ -47,6 +47,11 @@ public class Email {
 		return new String(password);
 	}
 
+	/**
+	*
+	* Method that help to generate the email 
+	* @author Miguel Licea
+	*/
 	public void generateEmail() {
 		this.password = this.randomPassword(this.defaultpasswordLength);
 		this.email = this.m_firstName.toLowerCase(Locale.ROOT) + this.m_lastName.toLowerCase(Locale.ROOT) + "@" + this.department

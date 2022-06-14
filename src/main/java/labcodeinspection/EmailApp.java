@@ -7,7 +7,12 @@ public final class EmailApp {
 	private EmailApp() {
 		throw new UnsupportedOperationException();
 	}
-
+	
+	/**
+	*
+	* Main method EmailApp class
+	* @author Miguel Licea
+	*/
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 

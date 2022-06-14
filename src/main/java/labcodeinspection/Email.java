@@ -2,9 +2,9 @@ package labcodeinspection;
 
 public class Email {
 
-	private final String m_firstName; 
-	private final String m_lastName;
-	private String password;
+	private transient final String m_firstName; 
+	private transient final String m_lastName;
+	private transient String password;
 	private String department;
 	private int defaultpasswordLength = 8;
 	private String email;

@@ -10,17 +10,30 @@ public class Email {
 	private transient String department;
 	final transient int defaultpasswordLength = 8;
 	private transient String email;
-
+	
+	/**
+	*Class constructor for Email
+	*@param firstName the name of the Email.
+	*@param lastName the last name of the Email.
+	*/
+	
 	public Email(String firstName, String lastName) {
 		this.m_firstName = firstName;
 		this.m_lastName = lastName;
 	}
-
+	
+	/**
+	*Show info like the first name plus last name, department, email and password.
+	*/
 	public void showInfo() {
 		System.out.println("\nFIRST NAME= " + m_firstName + "\nLAST NAME= " + m_lastName);
 		System.out.println("DEPARMENT= " + department + "\nEMAIL= " + email + "\nPASSWORD= " + password);
 	}
-
+	
+	/**
+	*Set departments by a choice.
+	*@param depChoice number choice of a department.
+	*/
 	public void setDeparment(int depChoice) {
 		switch (depChoice) {
 		case 1:
